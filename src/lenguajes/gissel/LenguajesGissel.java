@@ -18,6 +18,6 @@ public class LenguajesGissel {
     public static void main(String[] args) {
         // TODO code application logic here
     
-  System.out.println("mi primer progama java");
+  System.out.println("linea modificada ");
     }
 }
