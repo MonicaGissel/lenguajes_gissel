@@ -11,7 +11,11 @@ package cuadrado;
  */
 public class Cuadrado {
 private float lado;
-
+/**
+ * Este constructor tiene un argumento de tipo flotante 
+ * elparanetro que debes ingresar es el valor del lado de tu cuadrado
+ * @param lado 
+ */
 public Cuadrado (float lado){
 } 
 public float getLado(){

@@ -9,9 +9,9 @@ package cuadrado;
  *
  * @author T-301
  */
-  public void tuNombre(int x[]){
+//  public void tuNombre(int x[]){
 
-}
+
 public class Arreglos1 {
     public static void main(String[] args) {
         //CORRECTOS
@@ -31,11 +31,23 @@ public class Arreglos1 {
         //x[3]=12;
         
         //iterar
-        for (int i=0; i<x.length; i++){
+        // exceocion de aritmetica 
+        int a=2;
+        //para los racionales imprime infinito
+                float b=0;
+                System.out.println(a/b);
+        for (int i=0; i<4; i++){
             System.out.println(x[i]);
-            
-    }
+        }
+        System.out.println("si ocurre la excepcion" +"nunca me veras");
     }
 }
+  /*  for (int algodon :x){
+        System.out.println(algodon);
+        }
+               */
+    
+    
+
 
 
