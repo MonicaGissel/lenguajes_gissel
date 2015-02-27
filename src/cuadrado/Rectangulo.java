@@ -16,7 +16,15 @@ private float Menor;
     public float getMayor() {
         return Mayor;
     }
-}
+
+    public Rectangulo() {
+    }
+
+    public Rectangulo(float Mayor, float Menor) {
+        this.Mayor = Mayor;
+        this.Menor = Menor;
+    }
+
     public void setMayor(float Mayor) {
         this.Mayor = Mayor;
     }
@@ -29,4 +37,10 @@ private float Menor;
         this.Menor = Menor;
     }
 
-   
+  public float calcularArea(){
+      System.out.print("el area de rectangualo es :");
+      return Mayor*Menor;
+      
+      
+  }
+}

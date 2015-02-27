@@ -32,6 +32,7 @@ public float getLado(){
         // TODO code application logic here
     }
     public float calcularArea(){
+        System.out.print("El área del cuadrado es :");
         float area=lado*lado;
         return area;
         
